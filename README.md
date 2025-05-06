@@ -1,1 +1,2 @@
 # odin-landing-page
+The purpose of this project is to use a css style sheet to set up a webpage the way it's desired. By the end I should have displayed my use of flexbox and other css styling techniques.
