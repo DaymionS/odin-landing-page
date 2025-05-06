@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: Roboto, Arial, Helvetica;
+    justify-content: space-between;
 }
 
 .sec1, .sec2, .sec3 {
@@ -75,12 +76,22 @@ button {
     color: #E5E7EB;
 }
 
-.topText {
+.sec2 {
+    align-items: center;
+}
 
+.topText {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
 }
 
 .info {
     display: flex;
+}
+
+.iContainer {
+
 }
 
 .iImage {
@@ -93,20 +104,34 @@ button {
 
 }
 
-.quote {
+.sec3 {
+    background-color: #E5E7EB;
+}
 
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
 }
 
 .speaker {
-
+    font-size: 24px;
+    font-weight: 900;
+    color: #1F2937;
 }
 
 .sec4, .footer {
     display: flex;
 }
 
+.sec4 {
+    justify-content: center;
+    align-items: center;
+}
+
 .signUp {
     display: flex;
+    background-color: #3882F6;
 }
 
 .sText {
@@ -114,13 +139,22 @@ button {
 }
 
 .sLargeText {
-
+    font-size: 18px;
+    color: #F9FAF8;
 }
 
 .sSmallText {
+    font-size: 16px;
+    color: #E5E7EB;
+}
 
+.footer {
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: center;
 }
 
 .fText {
-
+    font-size: 18px;
+    color: #E5E7EB;
 }
