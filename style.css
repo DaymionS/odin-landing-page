@@ -12,11 +12,13 @@ body {
 
 .sec1 {
     background-color: #1F2937;
+    padding: 32px;
 }
 
 .header {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 64px;
 }
 
 .hLogoText {
@@ -40,30 +42,35 @@ a {
 
 .content {
     display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 64px;
 }
 
 .cContainer {
-
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .cLargeText {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+    width: 450px;
 }
 
 .cSmallText {
     font-size: 18px;
     color: #E5E7EB;
-}
-
-.cButton {
-    border-color: #F9FAF8;
+    width: 450px;
+    margin-bottom: 8px;
 }
 
 button {
     background-color: #3882F6;
     color: #F9FAF8;
+    padding: 8px 16px;
 }
 
 .cImage {
