@@ -148,15 +148,15 @@ button {
 .sec4 {
     justify-content: center;
     align-items: center;
+    padding: 84px;
 }
 
 .signUp {
     display: flex;
     background-color: #3882F6;
-}
-
-.sText {
-
+    padding: 32px;
+    width: 800px;
+    justify-content: space-evenly;
 }
 
 .sLargeText {
@@ -173,6 +173,7 @@ button {
     background-color: #1F2937;
     align-items: center;
     justify-content: center;
+    padding: 24px;
 }
 
 .fText {
