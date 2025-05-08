@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     font-family: Roboto, Arial, Helvetica;
     justify-content: space-between;
+    margin: 0;
 }
 
 .sec1, .sec2, .sec3 {
@@ -85,20 +86,22 @@ button {
 
 .sec2 {
     align-items: center;
+    padding: 24px;
 }
 
 .topText {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
+    margin-bottom: 24px;
 }
 
 .info {
     display: flex;
-}
-
-.iContainer {
-
+    align-items: center;
+    justify-content: space-around;
+    gap: 52px;
+    margin-bottom: 52px;
 }
 
 .iImage {
@@ -108,11 +111,13 @@ button {
 }
 
 .iText {
-
+    flex-wrap: wrap;
+    width: 150px;
 }
 
 .sec3 {
     background-color: #E5E7EB;
+    padding: 52px;
 }
 
 .quote {
