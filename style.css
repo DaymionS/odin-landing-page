@@ -117,13 +117,22 @@ button {
 
 .sec3 {
     background-color: #E5E7EB;
-    padding: 52px;
+    padding: 104px;
+    align-items: center;
 }
 
 .quote {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
+    flex-wrap: wrap;
+    width: 800px;
+}
+
+.qContainer {
+    display: flex;
+    justify-content: flex-end;
+    width: 800px;
 }
 
 .speaker {
