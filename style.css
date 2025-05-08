@@ -44,7 +44,7 @@ a {
 .content {
     display: flex;
     justify-content: center;
-    gap: 8px;
+    gap: 32px;
     margin-bottom: 64px;
 }
 
@@ -72,6 +72,7 @@ button {
     background-color: #3882F6;
     color: #F9FAF8;
     padding: 8px 16px;
+    border-radius: 10px;
 }
 
 .cImage {
@@ -104,15 +105,25 @@ button {
     margin-bottom: 52px;
 }
 
+.iContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .iImage {
-    border: 1px solid black;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
     width: 150px;
     height: 150px;
+    margin-bottom: 8px;
 }
 
 .iText {
     flex-wrap: wrap;
     width: 150px;
+    text-align: center;
 }
 
 .sec3 {
@@ -157,6 +168,7 @@ button {
     padding: 32px;
     width: 800px;
     justify-content: space-evenly;
+    border-radius: 10px;
 }
 
 .sLargeText {
